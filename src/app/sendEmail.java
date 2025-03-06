@@ -32,7 +32,6 @@ import javax.mail.internet.MimeMessage;
  * @author Haikal
  */
 public class sendEmail {
-    //testing netbeans
     public static LoggerContext loggerContext = (LoggerContext) LoggerFactory.getILoggerFactory();
     public static ch.qos.logback.classic.Logger logger = loggerContext.getLogger("app");
     public static propertiesLoader pl;
