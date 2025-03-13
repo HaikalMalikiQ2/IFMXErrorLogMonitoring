@@ -19,7 +19,7 @@ import org.slf4j.LoggerFactory;
  * @author Haikal
  */
 public class app {
-    
+    //testing branch 1
     public static LoggerContext loggerContext = (LoggerContext) LoggerFactory.getILoggerFactory();
     public static ch.qos.logback.classic.Logger logger = loggerContext.getLogger("app");
     public static propertiesLoader pl;
